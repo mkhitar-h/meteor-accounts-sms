@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'dispatch:accounts-sms',
-  version: '1.0.1',
+  name: 'mkhitar:accounts-sms',
+  version: '1.0.2',
   summary: 'Allow users to login with their phone number.',
-  git: 'https://github.com/DispatchMe/meteor-accounts-sms.git'
+  git: 'https://github.com/mkhitar-h/meteor-accounts-sms.git'
 });
 
 Package.onUse(function (api) {

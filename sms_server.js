@@ -72,7 +72,7 @@ Accounts.sms.sendVerificationCode = function (phone) {
     throw new Meteor.Error('not a mobile number');
   }
 
-  var code = Math.floor(Random.fraction() * 10000) + '';
+  var code = (Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000) + '';
 
   // Clear out existing codes
   codes.remove({phone: phone});
